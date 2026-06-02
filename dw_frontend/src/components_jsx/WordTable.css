@@ -1,0 +1,73 @@
+.word_table {
+    table-layout: fixed;
+    width: 100%;
+    font-size: clamp(1.1rem, 1.3vw, 1.5rem);
+    border-collapse: collapse;
+}
+
+.word_table th,
+.word_table td {
+
+    padding: clamp(1.2rem,1.5vh, 1.8rem)
+            clamp(1rem, 1.4vh, 1.5rem);
+    text-align: center;
+    overflow-wrap: break-word;
+
+
+}
+
+.word_table th {
+
+    font-size: clamp(1.2rem, 1.4vw, 1.6rem);
+}
+
+.game_head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(1.3rem, 1.5vw, 1.7rem);
+}
+
+.word_table th:nth-child(1),
+.word_table td:nth-child(1) {
+    width: 33%;
+}
+
+.word_table th:nth-child(2),
+.word_table td:nth-child(2) {
+    width: 33%;
+}
+
+.word_table th:nth-child(3),
+.word_table td:nth-child(3) {
+    width: 34%;
+}
+
+.next_btn {
+
+    background-color: blanchedalmond;
+    margin-top: 4rem;
+    padding: 2rem;
+    width: clamp(11rem, 17vw, 19rem);
+    font-size: 1.5rem;
+
+}
+
+.btnsWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 2rem;
+    gap: 1rem;
+
+}
+
+.prev_btn {
+
+    background-color: blanchedalmond;
+    margin-top: 4rem;
+    width: clamp(11rem, 17vw, 19rem);
+    padding: 2rem;
+    font-size: 1.5rem;
+}

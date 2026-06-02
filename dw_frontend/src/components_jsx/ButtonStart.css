@@ -1,0 +1,14 @@
+.startBtn {
+
+    width: clamp(14rem, 17vw, 21rem);
+    margin-top: clamp(10rem, 17vw, 21rem);
+    font-size: clamp(3rem, 4vw, 5rem);
+    padding: clamp(3rem, 4vw, 5rem);
+
+
+    background-color: blanchedalmond;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    font-style: normal;
+
+}

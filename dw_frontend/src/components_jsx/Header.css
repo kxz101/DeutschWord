@@ -1,0 +1,13 @@
+.header1 {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(3rem, 4vw, 5rem);
+
+    text-align: center;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    font-width: condensed;
+    font-palette: dark;
+}
