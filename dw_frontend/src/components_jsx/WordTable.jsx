@@ -65,7 +65,6 @@ function WordTable (){
                     setCount(newCount);
                     updateTable(newCount);
                     scrollToTop();
-                    console.log("After prev btn " +newCount);
 
                 }}>
                     Previous Word
