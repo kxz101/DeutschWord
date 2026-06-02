@@ -13,7 +13,7 @@ import java.util.Optional;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173","https://dw-frontend.onrender.com"})
 @RequestMapping("/api/words")
 public class GameController {
 
