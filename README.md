@@ -8,6 +8,12 @@ So it's a nice and simple app to learn and practice the most common 150 German v
 
 for example for the verb Gehen, you will see a list of versb like angehen, vorgehen, nachgehen, mitgehen... and their meaning + an example sentence for each of them respectively. I will upload an image that shows how it looks.
 
+the website is running here : https://dw-frontend.onrender.com/
+
+though since I took free plan, the system goes offline when idle for long time, so it will take about a minute for it to "heat up" the database and gets rolling, should work for a month at least (Until July 2026).
+
+For local implementation, it will run smooth as butter, here below:
+
 for the technical part:
 
 	-Frontend 	: React JS
