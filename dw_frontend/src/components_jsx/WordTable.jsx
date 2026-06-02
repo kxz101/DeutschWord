@@ -19,8 +19,6 @@ function WordTable (){
          const response = await fetch(`${API_BASE_URL}/api/words/${id}`);
          const data = await response.json();
          setTable(data);
-         console.log(data);
-         console.log(API_BASE_URL);
     }
     function scrollToTop() {
         window.scrollTo({
